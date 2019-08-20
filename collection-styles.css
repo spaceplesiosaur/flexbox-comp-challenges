@@ -9,32 +9,38 @@ main {
   flex-direction: column;
 }
 
-.mainSection1Text {
-  height: 33.33%;
-  width: 66%%;
+p {
+  width: 40%;
 }
 
 .mainSection2Images {
-  height: 66.66%;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.largeImageGroup {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
 .smallImageGroup {
-  display: flex;
-  flex-wrap: wrap;
-  height: 400px;
-  width: 400px;
-  margin: 30px;
+  width: 50%;
+  height: 50%;
+  text-align: center;
 }
+
 .large-image {
-  height: 400px;
-  width: 400px;
+  width: 75%;
+  height: 75%;
   margin: 30px;
+  display: flex;
 }
 
 .small-image {
-  height: 100px;
-  width: 100px;
+  height: 25%;
+  width: 25%;
   margin: 30px;
 }
