@@ -1,0 +1,40 @@
+
+body {
+  background-color: pink;
+}
+
+main {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainSection1Text {
+  height: 33.33%;
+  width: 66%%;
+}
+
+.mainSection2Images {
+  height: 66.66%;
+  width: 100%;
+  display: flex;
+}
+
+.smallImageGroup {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 400px;
+  margin: 30px;
+}
+.large-image {
+  height: 400px;
+  width: 400px;
+  margin: 30px;
+}
+
+.small-image {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
